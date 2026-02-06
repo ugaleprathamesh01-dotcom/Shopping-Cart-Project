@@ -1,0 +1,8 @@
+.amazon-navbar {
+  background-color: #131921;   /* Amazon dark blue */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.amazon-navbar .nav-link:hover {
+  color: #febd69 !important;   /* Amazon hover color */
+}

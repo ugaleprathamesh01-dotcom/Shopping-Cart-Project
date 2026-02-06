@@ -1,0 +1,69 @@
+.cart-heading{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cart-table{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cart-table thead{
+    background-color: #232f3e;
+    color: white;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-info img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.subtotal{
+    font-weight: 600;
+    color: #b12704;
+}
+
+/* Button Group */
+.cart-btn-group{
+    display: flex;
+    gap: 10px;
+}
+
+/* Custom Buttons */
+.cart-inc{
+    background-color: #28a745;
+    color: white;
+}
+
+.cart-dec{
+    background-color: #ffc107;
+    color: black;
+}
+
+.cart-remove{
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Hover Remove */
+.cart-btn-group .btn:hover{
+    opacity: 0.9;
+    box-shadow: none;
+}
+
+/* Empty Cart */
+.empty-cart{
+    font-size: 18px;
+    padding: 30px;
+    font-weight: 500;
+}
