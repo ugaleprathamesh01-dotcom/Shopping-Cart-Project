@@ -40,10 +40,18 @@ function Navigationbar() {
               <Link className="nav-link text-white" to="/cart">Products</Link>
             </li>
 
-            <li className="nav-item">
+           < li className="nav-item">
               <a className="nav-link text-white" href="#">Contact</a>
             </li>
           </ul>
+          
+             < li className="nav-item">
+              <a className="nav-link text-white" href="#">Register</a>
+            </li>
+            < li className="nav-item">
+              <a className="nav-link text-white" href="#">Login</a>
+            </li>
+
 
           {/* Cart Section */}
           <span className="navbar-text">

@@ -11,12 +11,14 @@ import ProductList from './ProductList'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import Cart from './Cart'
 
+
 function App() {
   return (
     <>
     
     <BrowserRouter>   
     <Navigationbar/>
+    
     <Routes>
       <Route path="/" element={ <ProductList/>} />
        <Route path="/cart" element={ < Cart/>} /> {/* Route decide karta hai konsa component kab show hoga */}

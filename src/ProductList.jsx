@@ -71,24 +71,45 @@ function ProductList() {
       stock: "In Stock",
       description: "Premium studio speaker with crystal clear sound.",
       image: "https://smartixtech.com/cdn/shop/files/STUDIO_SPEAKER_SM_2_1080x.jpg?v=1725018840"
+    },
+    {
+      id: 7,
+      title: "i-Phone 17",
+      price: 150000,
+      category: "Smart-Phone",
+      rating: 4.4,
+      stock: "In Stock",
+      description: "i-phone 17 pro-max This are the latest Smartphone whith Muiltiple features .",
+      image: "https://www.designinfo.in/wp-content/uploads/0005/11/Apple-iPhone-17-Pro-Max-5.webp"
+    },
+    {
+      id: 8,
+      title: " Smart LED TV ",
+      price: 99000,
+      category: "TV",
+      rating: 4.4,
+      stock: "In Stock",
+      description: "This are the Smart Led Tv With Olide Display It give Good Experience .",
+      image: "https://mir-s3-cdn-cf.behance.net/projects/404/8fc19c220796619.Y3JvcCwxMDgwLDg0NCwwLDgw.png"
     }
   ];
 
   return (
-    <div className="container mt-4">
+   
+    <div className="container mt-5">
       <div className="row">
 
         {
           products.map((item)=>{
             return(
-              <div className="col-md-4 mb-4" key={item.id}>
+              <div className="col-md-3 mb-5" key={item.id}>
 
                 <div className="card product-card">
 
-                  {/* Image */}
+                  
                   <div className="product-image-container">
                     <img src={item.image} alt={item.title} className="product-image" />
-                  </div>
+                  </div> 
 
                   {/* Content */}
                   <div className="card-body product-footer">
@@ -140,6 +161,6 @@ function ProductList() {
       </div>
     </div>
   )
-}
+} 
 
 export default ProductList
