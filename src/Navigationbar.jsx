@@ -45,6 +45,13 @@ function Navigationbar() {
             </li>
           </ul>
           
+         <nav className=" nav-center navbar amazon-navbar">
+      <form className="search-form">
+        <input className="search-input" type="search" placeholder="Search Amazon" aria-label="Search" />
+        <button className="search-btn" type="submit"> 🔍  </button>
+      </form>
+    </nav>
+
              < li className="nav-item">
               <a className="nav-link text-white" href="#">Register</a>
             </li>

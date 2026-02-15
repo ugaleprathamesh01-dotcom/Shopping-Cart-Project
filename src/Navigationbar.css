@@ -6,3 +6,53 @@
 .amazon-navbar .nav-link:hover {
   color: #febd69 !important;   /* Amazon hover color */
 }
+/* Amazon Navbar */
+.amazon-navbar {
+  background-color: #131921;
+}
+
+/* Make navbar items take full width */
+.navbar-collapse {
+  display: flex !important;
+  align-items: center;
+}
+
+/* Left menu */
+.navbar-nav {
+  flex: 1;
+}
+
+/* 🔥 Center the search bar */
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Search form style */
+.search-form {
+  display: flex;
+  width: 500px;
+}
+
+/* Input */
+.search-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+}
+
+/* Button */
+.search-btn {
+  background-color: #febd69;
+  border: none;
+  padding: 0 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #f3a847;
+}
